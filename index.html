@@ -1,82 +1,96 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ludmila Coffee Tour - Туристична агенція</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; background: #f0f0f0; }
-        header { background: #6a1b9a; color: white; padding: 20px; text-align: center; }
-        nav { background: #7b1fa2; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
-        .hero { background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover; padding: 100px 20px; text-align: center; color: white; }
-        .hero h1 { font-size: 48px; margin-bottom: 10px; }
-        .hero p { font-size: 24px; }
-        section { padding: 40px 20px; text-align: center; }
-        .tour { background: white; margin: 20px auto; padding: 20px; border-radius: 10px; max-width: 400px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .tour img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; }
-        .button { margin-top: 10px; display: inline-block; padding: 10px 20px; background: #6a1b9a; color: white; text-decoration: none; border-radius: 5px; }
-        footer { background: #6a1b9a; color: white; text-align: center; padding: 15px; margin-top: 30px; font-size: 14px; }
-        @media (max-width: 600px) {
-            .hero h1 { font-size: 32px; }
-            .hero p { font-size: 18px; }
-            nav a { display: block; margin: 10px 0; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туристичне Агентство "Ludmila Travel"</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+    }
+    header {
+      background: #2196f3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0d47a1;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section h2 {
+      color: #0d47a1;
+    }
+    section p {
+      color: #555;
+      font-size: 18px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #2196f3;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Ludmila Coffee Tour</h1>
+  <h1>Ласкаво просимо до "Ludmila Travel"</h1>
+  <p>Відкрий світ разом з нами!</p>
 </header>
+
 <nav>
-    <a href="#">Головна</a>
-    <a href="#">Тури</a>
-    <a href="#">Про нас</a>
-    <a href="#">Контакти</a>
+  <a href="#about">Про нас</a>
+  <a href="#tours">Тури</a>
+  <a href="#contact">Контакти</a>
 </nav>
 
-<div class="hero">
-    <h1>Відкривай світ разом з нами!</h1>
-    <p>Європа, Єгипет, Туреччина та більше</p>
-</div>
+<section id="about">
+  <h2>Про нас</h2>
+  <p>Ми допомагаємо здійснити найкращі подорожі вашого життя. Тури по всьому світу за найкращими цінами!</p>
+  <a href="#tours" class="btn">Переглянути тури</a>
+</section>
 
-<section>
-    <h2>Найкращі тури</h2>
+<section id="tours">
+  <h2>Наші тури</h2>
+  <p>Екзотичні острови, європейські столиці, гірськолижні курорти — обирайте свій ідеальний тур!</p>
+  <a href="#contact" class="btn">Замовити тур</a>
+</section>
 
-    <div class="tour">
-        <img src="https://images.unsplash.com/photo-1543340900-e6e1a5b827e3" alt="Париж, Франція">
-        <h3>Париж, Франція</h3>
-        <p>Романтика на кожному кроці - від Ейфелевої вежі до вузеньких вуличок.</p>
-        <a href="#" class="button">Детальніше</a>
-    </div>
-
-    <div class="tour">
-        <img src="https://images.unsplash.com/photo-1582719478250-0210555b91d9" alt="Амстердам, Нідерланди">
-        <h3>Амстердам, Нідерланди</h3>
-        <p>Канали, музеї та атмосфера свободи чекають на вас.</p>
-        <a href="#" class="button">Детальніше</a>
-    </div>
-
-    <div class="tour">
-        <img src="https://images.unsplash.com/photo-1600267165397-4e6b8ec3d2b2" alt="Єгипет">
-        <h3>Шарм-ель-Шейх, Єгипет</h3>
-        <p>Тепле море, коралові рифи та незабутні враження.</p>
-        <a href="#" class="button">Детальніше</a>
-    </div>
-
-    <div class="tour">
-        <img src="https://images.unsplash.com/photo-1612978989563-46424c14182d" alt="Туреччина">
-        <h3>Анталія, Туреччина</h3>
-        <p>Комфортний відпочинок для всієї родини на Середземному морі.</p>
-        <a href="#" class="button">Детальніше</a>
-    </div>
-
+<section id="contact">
+  <h2>Зв'яжіться з нами</h2>
+  <p>Телефон: +380 (99) 123-45-67</p>
+  <p>Email: info@ludmilatravel.ua</p>
+  <a href="mailto:info@ludmilatravel.ua" class="btn">Написати нам</a>
 </section>
 
 <footer>
-    &copy; 2025 Ludmila Coffee Tour. Всі права захищені.
+  <p>© 2025 Ludmila Travel. Всі права захищені.</p>
 </footer>
 
 </body>
