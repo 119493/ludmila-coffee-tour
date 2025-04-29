@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludmila Coffee Tour</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
+        header { background-color: #6a1b9a; color: white; padding: 20px; text-align: center; font-size: 28px; }
+        nav { background: #7b1fa2; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        .hero { background-image: url('https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9'); background-size: cover; background-position: center; color: white; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 38px; }
+        .section { padding: 40px 20px; text-align: center; }
+        .tour { background-color: white; margin: 20px auto; padding: 20px; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .tour img { width: 100%; border-radius: 8px; height: 250px; object-fit: cover; }
+        footer { background-color: #6a1b9a; color: white; text-align: center; padding: 10px; font-size: 14px; }
+        .button, .messenger-button { background-color: #6a1b9a; color: white; border: none; padding: 10px 20px; margin: 5px; border-radius: 5px; cursor: pointer; text-decoration: none; font-size: 16px; display: inline-block; }
+        form { background: white; padding: 20px; border-radius: 8px; max-width: 500px; margin: 20px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        input, select, textarea { width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+        @media (max-width: 600px) { .hero h1 { font-size: 28px; } nav a { display: block; margin: 10px 0; } }
+    </style>
+</head>
+<body>
+
+<header>Ludmila Coffee Tour</header>
+<nav>
+    <a href="#tours">Tours</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Your Journey Begins Here</h1>
+    <p>Explore Europe and beyond with personalized tours</p>
+</div>
+
+<div id="tours" class="section">
+    <h2>Popular Tours</h2>
+    <div class="tour">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Paris_Night.jpg" alt="Paris and Rome">
+        <h3>Paris & Rome Tour</h3>
+        <p>Experience the magic of Paris and Rome in one unforgettable trip.</p>
+    </div>
+    <div class="tour">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Budapest_view.jpg" alt="Budapest and Vienna">
+        <h3>Budapest & Vienna Escape</h3>
+        <p>Discover the beauty and history of Central Europe.</p>
+    </div>
+    <div class="tour">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Giza_Plateau_-_Great_Pyramids_of_Egypt.jpg" alt="Sunny Egypt">
+        <h3>Sunny Egypt</h3>
+        <p>Enjoy the sun, sea, and ancient wonders of Egypt.</p>
+    </div>
+    <div class="tour">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Amsterdam_Canal.jpg" alt="Amsterdam">
+        <h3>Amsterdam Adventure</h3>
+        <p>Explore the charming canals and culture of Amsterdam.</p>
+    </div>
+</div>
+
+<div id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Ludmila Coffee Tour, we are passionate about creating unforgettable travel experiences. We specialize in tours across Europe, Egypt, and Turkey.</p>
+</div>
+
+<div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form action="#">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <select required>
+            <option value="">Select a Tour</option>
+            <option>Paris & Rome Tour</option>
+            <option>Budapest & Vienna Escape</option>
+            <option>Sunny Egypt</option>
+            <option>Amsterdam Adventure</option>
+        </select>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit" class="button">Send Inquiry</button>
+    </form>
+    <p>Phone: <a href="tel:+380673805964" style="color:#6a1b9a;">+380673805964</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/liudmila_coffee_tour" target="_blank">@liudmila_coffee_tour</a></p>
+    <div style="margin-top:20px;">
+        <a href="https://wa.me/380673805964" class="messenger-button" target="_blank">WhatsApp</a>
+        <a href="https://t.me/+380673805964" class="messenger-button" target="_blank">Telegram</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Ludmila Coffee Tour. All rights reserved.
+</footer>
+
+</body>
+</html>
